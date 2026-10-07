@@ -2,6 +2,8 @@
 
 ## Upcoming Release
 
+## v0.14.2
+
 ### Added
 
 - [[#175]](https://github.com/rust-vmm/rust-vmm/pull/175) The x86_64
@@ -11,9 +13,11 @@
 
 ### Changed
 
-- [[381]](https://github.com/rust-vmm/kvm/pull/381)
+- [[#381]](https://github.com/rust-vmm/kvm/pull/381)
   Raised kvm_irq_routing cap to KVM_MAX_IRQ_ROUTES (4096) matching the
-  kernel
+  kernel and exported it as a public constant.
+- [[#160]](https://github.com/rust-vmm/rust-vmm/pull/160) Repository
+  migrated to the rust-vmm monorepo
 
 ## v0.14.1
 
